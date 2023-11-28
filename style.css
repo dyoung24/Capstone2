@@ -1,0 +1,76 @@
+
+
+
+.main-page { 
+    background-color: #1d7151;
+    height: 200px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.top-container {
+    text-align: center;
+    padding-top: 10px;
+    
+ }
+
+ .top-cloud{ border-radius:50%; border: 1px solid black; }
+ .bottom-cloud { border-radius:50%; border: 1px solid black; }
+ .mountain{  border-radius:50%; border: 1px solid black; }
+.headshot {border-radius:50%; border: 1px solid black; }
+.typing{border-radius:50%; border: 1px solid black; }
+.photography{ border-radius:50%; border: 1px solid black; }
+
+
+.middle-cointainer {
+    text-align: center;
+    padding: 50px 50px 20px;
+
+}
+
+.bottom-container {
+    background-color: #1d7151;
+    padding: 50px 0 20px;
+    text-align: center;
+}
+
+.footer-link{
+    color: black;
+}
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+.btn:hover {
+    background: #30e398;
+    background-image: -webkit-linear-gradient(top, #30e37a, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
